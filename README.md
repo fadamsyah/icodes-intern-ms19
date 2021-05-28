@@ -6,9 +6,9 @@ Repositori internship Mesin 19 di [ICoDes](https://ik.fti.itb.ac.id/lab-icodes/)
 | :--- | :------: | --------------------------------: |
 | 1.   | 13119001 |                    Muhammad Harza |
 | 2.   | 13119005 |              Fachriza Afif Ma'ani |
-| 3.   | 13119043 |    Muhammad Akif Miftahun Najakhi |
-| 4.   | 13119049 | Georgius Harry Setiawan Soetandyo |
-| 5.   |    a     |                                 a |
+| 3.   | 13119032 |               Muhammad Axel Dhiya |
+| 4.   | 13119043 |    Muhammad Akif Miftahun Najakhi |
+| 5.   | 13119049 | Georgius Harry Setiawan Soetandyo |
 
 **Advisor**: Prof. Yul Yunazwin Nazaruddin
 
@@ -74,7 +74,7 @@ conda install -c conda-forge pandas matplotlib # Bisa juga tanpa -c conda-forge
 
 # Btw, di conda juga ada pip, jadi kalian juga bisa pakai
 # pip install <package>
-# Diutamakan pakai [conda install]. Conda otomatis install dependencies dari suatu package
+# Diutamakan pakai [conda install]. Conda otomatis install dependencies dari suatu package.
 
 # Untuk belajar dan riset, kita bakal sering pakai jupyter notebook atau jupyter lab
 jupyter notebook # Buka jupyter notebook
