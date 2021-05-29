@@ -1,5 +1,9 @@
-# Description
+# 1. General Description
 Repositori internship Mesin 19 di [ICoDes](https://ik.fti.itb.ac.id/lab-icodes/) (Remote).
+
+**Advisor**: Prof. Yul Yunazwin Nazaruddin
+
+**Mentor**: Fadillah Adamsyah Ma'ani
 
 **Member**:
 | No.  |   NIM    |                              Nama |
@@ -10,13 +14,23 @@ Repositori internship Mesin 19 di [ICoDes](https://ik.fti.itb.ac.id/lab-icodes/)
 | 4.   | 13119043 |    Muhammad Akif Miftahun Najakhi |
 | 5.   | 13119049 | Georgius Harry Setiawan Soetandyo |
 
-**Advisor**: Prof. Yul Yunazwin Nazaruddin
+# 2. Table of Contents
+- [1. General Description](#1-general-description)
+- [2. Table of Contents](#2-table-of-contents)
+- [3. Tutorial](#3-tutorial)
+  - [3.1. Python](#31-python)
+  - [3.2. Installation](#32-installation)
+    - [3.2.1. Miniconda](#321-miniconda)
+    - [3.2.2. Visual Studio Code](#322-visual-studio-code)
+  - [3.3. Machine Learning](#33-machine-learning)
+    - [3.3.1. Basic Theory & Practice](#331-basic-theory--practice)
+  - [3.4. Git](#34-git)
+- [4. Task](#4-task)
+  - [4.1. Homework #1](#41-homework-1)
 
-**Mentor**: Fadillah Adamsyah Ma'ani
+# 3. Tutorial
 
-# Tutorial
-
-## Python
+## 3.1. Python
 
 **Sources**:
 
@@ -46,9 +60,9 @@ Repositori internship Mesin 19 di [ICoDes](https://ik.fti.itb.ac.id/lab-icodes/)
    - Numpy
    - Matplotlib
 
-## Installation
+## 3.2. Installation
 
-### Miniconda
+### 3.2.1. Miniconda
 
 **Why**: Instalasi package Python pada conda relatif lebih mudah dibandingkan dengan pip.
 
@@ -80,10 +94,28 @@ conda install -c conda-forge pandas matplotlib # Bisa juga tanpa -c conda-forge
 jupyter notebook # Buka jupyter notebook
 ```
 
-### Visual Studio Code
+### 3.2.2. Visual Studio Code
 
-**Why**: Setelah selesai uji coba, biasanya kode akan dibuat kaya semacam *library* supaya bisa digunakan di pekerjaan selanjutnya. Oleh karena itu, kita bakal bikin kode tersebut di script (.py). Visual studio code ini enak banget buat ngetik dan ngedit.
+*Visual Studio Code* adalah suatu *code edittor* yang di dalamnya terdapat *tools* yang mempermudah pengguna saat menulis kode, seperti *autocompletion*, *auto indentation*, *code formatting*, dan *terminal*. Visual studio code ini enak banget buat ngetik dan ngedit kode. Setelah selesai uji coba di Jupyter Notebook, biasanya kode akan dibuat kaya semacam *library* supaya bisa digunakan di pekerjaan selanjutnya. Oleh karena itu, kita bakal bikin kode tersebut di script (.py). 
 
 [Download](https://code.visualstudio.com/Download)
 
-## Machine Learning
+## 3.3. Machine Learning
+
+### 3.3.1. Basic Theory & Practice
+
+**Sources**:
+
+1. [DataCamp - Machine Learning Fundamentals with Python](https://www.datacamp.com/tracks/machine-learning-fundamentals-with-python):
+   - [Supervised Learning with scikit-learn](https://www.datacamp.com/courses/supervised-learning-with-scikit-learn)
+   - [Unsupervised Learning in Python](https://www.datacamp.com/courses/unsupervised-learning-in-python)
+2. [Coursera - Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning#courses):
+   - [Neural Networks and Deep Learning](https://www.coursera.org/learn/neural-networks-deep-learning?specialization=deep-learning)
+   - [Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization](https://www.coursera.org/learn/deep-neural-network?specialization=deep-learning)
+
+## 3.4. Git
+
+# 4. Task
+
+## 4.1. Homework #1
+
