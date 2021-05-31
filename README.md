@@ -121,7 +121,7 @@ jupyter notebook # Buka jupyter notebook
 
 Buat **simulasi** *state-space* atau *transfer-function* dengan menggunakan, Python, dan numpy, lalu plot hasilnya menggunakan library matplotlib. Soalnya adalah sebagai berikut ([reference](https://www.javatpoint.com/control-system-state-space-model)):
 
-$$\mathbf{x}(t)=\begin{bmatrix}x_1(t) & x_2(t) & x_3(t)\end{bmatrix}^\mathrm{T}$$
+$\mathbf{x}(t)=\begin{bmatrix}x_1(t) & x_2(t) & x_3(t)\end{bmatrix}^\mathrm{T}$
 
 $\dot{\mathbf{x}}(t) = \begin{bmatrix}0 & 1 & 0 \\ 0 & 0 & 1 \\ -10 & -11 & -6 \end{bmatrix}\mathbf{x}(t)+\begin{bmatrix}0\\0\\8\end{bmatrix}u(t)$
 
