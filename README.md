@@ -123,7 +123,7 @@ Buat **simulasi** *state-space* atau *transfer-function* dengan menggunakan, Pyt
 
 <img src="https://render.githubusercontent.com/render/math?math=%5Cmathbf%7Bx%7D(t)%3D%5Cbegin%7Bbmatrix%7Dx_1(t)%20%26%20x_2(t)%20%26%20x_3(t)%5Cend%7Bbmatrix%7D%5E%5Cmathrm%7BT%7D">
 
-<img src="https://render.githubusercontent.com/render/math?math=%5Cdot%7B%5Cmathbf%7Bx%7D%7D(t)%20%3D%20%5Cbegin%7Bbmatrix%7D0%20%26%201%20%26%200%20%5C%5C%200%20%26%200%20%26%201%20%5C%5C%20-10%20%26%20-11%20%26%20-6%20%5Cend%7Bbmatrix%7D%5Cmathbf%7Bx%7D(t)%2B%5Cbegin%7Bbmatrix%7D0%5C%5C0%5C%5C8%5Cend%7Bbmatrix%7Du(t)">
+<img src="https://render.githubusercontent.com/render/math?math=%24%5Cdot%7B%5Cmathbf%7Bx%7D%7D(t)%20%3D%20%5Cbegin%7Bbmatrix%7D0%20%26%201%20%26%200%20%5C%5C%200%20%26%200%20%26%201%20%5C%5C%20-10%20%26%20-11%20%26%20-6%20%5Cend%7Bbmatrix%7D%5Cmathbf%7Bx%7D(t)%2B%5Cbegin%7Bbmatrix%7D0%20%5C%5C%200%20%5C%5C%208%5Cend%7Bbmatrix%7Du(t)%24">
 
 <img src="https://render.githubusercontent.com/render/math?math=%24y(t)%3D%5Cbegin%7Bbmatrix%7D1%20%26%200%20%26%200%5Cend%7Bbmatrix%7D%5Cmathbf%7Bx%7D(t)%24">
 
