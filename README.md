@@ -119,3 +119,70 @@ jupyter notebook # Buka jupyter notebook
 
 ## 4.1. Homework #1
 
+Buat **simulasi** *state-space* atau *transfer-function* dengan menggunakan, Python, dan numpy, lalu plot hasilnya menggunakan library matplotlib. Soalnya adalah sebagai berikut ([reference](https://www.javatpoint.com/control-system-state-space-model)):
+
+$\mathbf{x}(t)=\begin{bmatrix}x_1(t) & x_2(t) & x_3(t)\end{bmatrix}^\mathrm{T}$
+
+$\dot{\mathbf{x}}(t) = \begin{bmatrix}0 & 1 & 0 \\ 0 & 0 & 1 \\ -10 & -11 & -6 \end{bmatrix}\mathbf{x}(t)+\begin{bmatrix}0\\0\\8\end{bmatrix}u(t)$
+
+$y(t)=\begin{bmatrix}1 & 0 & 0\end{bmatrix}\mathbf{x}(t)$
+
+**Notes**:
+1. Pake metode **Euler**
+2. *Initial condition* bebas (jangan *zero-initial-condition*)
+3. *Input*-nya adalah fungsi step, *gain*-nya bebas
+4. *Sampling rate*, $\Delta t=0.01 \, s$
+5. $t_{initial}$ dan $t_{final}$ bebas
+6. Format *plot* bebas
+
+Yang bebas tolong diseragamin ya. Kode perlu disesuaikan dengan format:
+
+```python
+def dynamics(t, x, u):
+   '''
+   DESC:
+      Function untuk ngituing dynamics (x_dot)
+   INPUT:
+      t : numpy array (1,) atau float, waktu
+      x : numpy array (3,), state
+      u : numpy array (1,) atau float, input
+   OUTPUT:
+      x_dot : numpy array (3,), x_dot pada waktu t
+   '''
+
+   x_dot = ...
+
+   return x_dot
+
+class Euler():
+   def __init__(self, dynamics):
+      '''
+      DESC:
+         Class untuk simulasi dengan metode Euler
+      INPUT:
+         dynamics : Python function untuk ngitung x_dot
+      '''
+      
+      self.dynamics = dynamics
+
+   def simulate(self, t, x0, u):
+      '''
+      DESC:
+         Method untuk simulasi
+      INPUT:
+         t : numpy array (N,), waktu simulasi
+         x0 : numpy array (3,), initial state
+         u: numpy array (N,), input
+      OUTPUT:
+         t : numpy array (N,), waktu simulasi
+         x : numpy array (N, 3), state
+         y : numpy array (N,), output
+      '''
+      
+
+      return t, x, y
+
+# Cara pakenya
+sim = Euler(dynamics)
+t, x, y = sim.simulate(t, x0, u)
+```
